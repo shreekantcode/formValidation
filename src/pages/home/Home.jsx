@@ -5,6 +5,7 @@ import BasicTable from './Table';
 import { useNavigate } from 'react-router-dom';
 import Grid from "@mui/material/Grid";
 import ScrollDialog from './Modal';
+import AllowanceData from './AllowancesData';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -27,13 +28,13 @@ const Home = () => {
           <div className='flex'>
             <div>
               <span className='border'></span>
-              Corporate Information
+              Allowances
             </div>
             <div className='pointer'>
               <ScrollDialog/>
-              
             </div>
           </div>
+          <AllowanceData/>
         </Grid>
       </Grid>
 

@@ -46,7 +46,9 @@ export default function ScrollDialog() {
                     <Allowances handleClose={handleClose} />
 
                 </DialogContent>
-            
+                <DialogActions>
+                    <Button onClick={handleClose}>Cancel</Button>
+                </DialogActions>
             </Dialog>
         </div>
     );
