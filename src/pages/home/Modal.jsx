@@ -40,16 +40,13 @@ export default function ScrollDialog() {
                 aria-labelledby="scroll-dialog-title"
                 aria-describedby="scroll-dialog-description"
             >
-                <DialogTitle id="scroll-dialog-title">Subscribe</DialogTitle>
+                <DialogTitle id="scroll-dialog-title">Allowances</DialogTitle>
                 <DialogContent dividers={scroll === 'paper'} >
 
-                    <Allowances/>
+                    <Allowances handleClose={handleClose} />
 
                 </DialogContent>
-                <DialogActions>
-                    <Button onClick={handleClose}>Cancel</Button>
-                    <Button onClick={handleClose}>Subscribe</Button>
-                </DialogActions>
+            
             </Dialog>
         </div>
     );

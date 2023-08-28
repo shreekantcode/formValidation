@@ -11,10 +11,11 @@ import FormControl from '@mui/material/FormControl';
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import { Typography } from "@mui/material";
-
+import { useNavigate } from "react-router-dom";
 
 
 const Register = () => {
+  const navigate = useNavigate();
   const {
     register,
     handleSubmit,
@@ -31,6 +32,7 @@ const Register = () => {
       },
       body: JSON.stringify(data),
     });
+    navigate('/')
   }
 
 

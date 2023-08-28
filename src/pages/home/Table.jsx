@@ -13,7 +13,7 @@ function Table() {
         }
 
         fetchData()
-    })
+    }, [])
     return (
         <>
             <table>
