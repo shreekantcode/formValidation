@@ -1,0 +1,21 @@
+
+.container {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textLevel {
+    font-size:  20px;
+}
+
+.star {
+    font-size: 20px;
+    color: red;
+        margin-right: 30px
+}

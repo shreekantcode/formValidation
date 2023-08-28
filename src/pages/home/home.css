@@ -1,0 +1,53 @@
+.tab {
+    margin-top: 50px;
+
+}
+
+.flex {
+    background-color: #D7D0FF;
+    padding: 10px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.border {
+    border-left: 2px solid #27187E;
+    font-size: 20px;
+    padding-right: 4px;
+    font-weight: bold;
+}
+
+.top {
+    margin-left: 250px;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+th {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.td {
+    width: 300px;
+}
+
+.pointer {
+    cursor: pointer;
+}
